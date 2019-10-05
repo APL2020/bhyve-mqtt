@@ -8,3 +8,4 @@ CMD npm run start
 # ports and volumes
 EXPOSE 1883 8883
 VOLUME /usr/src/
+COPY app/ /usr/src/
