@@ -7,4 +7,4 @@ CMD npm run start
 
 # ports and volumes
 EXPOSE 1883 8883
-VOLUME /config 
+VOLUME /usr/src/
