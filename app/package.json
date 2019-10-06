@@ -9,7 +9,7 @@
     "mqtt"
   ],
   "scripts": {
-    "start": "node -r dotenv/config app.js dotenv_config_path=./.env",
+    "start": "node -r dotenv/config app.js dotenv_config_path=./bhyve/.env",
     "cleanmac": "find . -name '.DS_Store' -type f -delete",
     "standard": "standard --verbose --fix"
   },
